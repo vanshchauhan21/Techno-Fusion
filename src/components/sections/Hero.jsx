@@ -2,7 +2,7 @@ import React from "react";
 import styled from "styled-components";
 import { Bio } from "../../data/constants";
 import Typewriter from "typewriter-effect";
-import vansh from "../../images/vansh.avif";
+import vansh from "../../images/18a4949fc9c8067172d3b96e302e7097.gif";
 import HeroBgAnimation from "../HeroBgAnimation";
 import { Tilt } from "react-tilt";
 import { motion } from "framer-motion";
@@ -256,7 +256,7 @@ const Hero = () => {
             <HeroRightContainer>
               <motion.div {...headContentAnimation}>
                 <Tilt>
-                  <Img src={vansh} alt="vansh chauhan" />
+                  <Img src={18a4949fc9c8067172d3b96e302e7097} alt="vansh chauhan" />
                 </Tilt>
               </motion.div>
             </HeroRightContainer>
