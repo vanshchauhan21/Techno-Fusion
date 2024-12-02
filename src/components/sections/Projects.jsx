@@ -100,15 +100,14 @@ const Projects = ({ openModal, setOpenModal }) => {
     <Container id="Projects">
         <StarCanvas />
       <Wrapper>
-        <Title>Projects</Title>
+        <Title>TOOLS</Title>
         
         <Desc
           style={{
             marginBottom: "40px",
           }}
         >
-          I have worked on a wide range of projects. From web apps to android
-          apps. Here are some of my projects.
+          Some of the best software development tools.
         </Desc>
         <ToggleButtonGroup>
           <ToggleButton
