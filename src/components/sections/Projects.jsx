@@ -122,21 +122,21 @@ const Projects = ({ openModal, setOpenModal }) => {
             active={toggle === "web app"}
             onClick={() => setToggle("web app")}
           >
-            WEB APP"S
+          Placements
           </ToggleButton>
           <Divider />
           <ToggleButton
             active={toggle === "chrome extension"}
             onClick={() => setToggle("chrome extension")}
           >
-            chrome extension'S
+            AI TOOLS
           </ToggleButton>
           <Divider />
           <ToggleButton
             active={toggle === "portfolio"}
             onClick={() => setToggle("portfolio")}
           >
-            portfolio
+            Code Editor 
           </ToggleButton>
         </ToggleButtonGroup>
         <CardContainer>
