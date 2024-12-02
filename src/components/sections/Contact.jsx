@@ -150,7 +150,7 @@ const Contact = () => {
 
   return (
     <Container>
-    
+     <StarCanvas />
       <Wrapper>
       <EarthCanvas />
         <Title>Contact</Title>
