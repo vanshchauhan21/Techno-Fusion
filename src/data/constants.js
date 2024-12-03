@@ -348,23 +348,19 @@ export const projects = [
   },
   {
     id: 9,
-    title: "ozippa",
+    title: "Code Editor",
     date: "oct 2023 - April 2024",
     description:
-      "Ozippa.com is a website that allows users to list their local businesses based on cities, search for nearby businesses, place their ads, and advertise their products and services on ozippa , my favourite search engine.",
+      "Vortex Code: A Powerful Online Code Editor Built with React.js* Create a playground area where one can create multiple code snippets and run it using an online compiler and execution system.",
     image:
       
       "https://github.com/vanshchauhan21/assets/blob/main/ozippa.png?raw=true",
     tags: [
-      "Wordpress",
-      "Figma",
-      "LightRoom",
-      "Snapseed",
-      
+     
     ],
     category: "web app",
-    github: "https://github.com/vanshchauhan21",
-    webapp: "https://ozippa.com/",
+    github: "https://github.com/vanshchauhan21/Vortex-IDE",
+    webapp: "https://vortex-ide.vercel.app/",
   },
   {
     id: 0,
