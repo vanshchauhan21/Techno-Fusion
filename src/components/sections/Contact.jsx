@@ -2,7 +2,7 @@ import React, { useRef } from "react";
 import styled from "styled-components";
 import emailjs from "@emailjs/browser";
 import EarthCanvas from "../canvas/Earth";
-
+import StarCanvas from "../canvas/Stars";
 const Container = styled.div`
   display: flex;
   justify-content: center;
