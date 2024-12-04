@@ -1,7 +1,7 @@
 export const Bio = {
   name: "Techno Fusion",
   roles: [
-    "Coding Resources",
+    "Coding Stuff",
     "Resume Building",
     "Github Readme",
     "Study Material",
