@@ -5,7 +5,7 @@ export const Bio = {
     "Resume Building",
     "Github Readme",
     "Study Material",
-    "Placements",
+    "Placement",
   ],
   description:
 "Technofusion is a software development company that provides custom software products and ready-made solutions for businesses" ,
