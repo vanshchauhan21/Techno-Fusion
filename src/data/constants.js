@@ -3,9 +3,9 @@ export const Bio = {
   roles: [
     "Coding Resources",
     "Resume Building",
-    "Github Readmes",
+    "Github Readme",
     "Study Material",
-    "Interview Guidelines",
+    "Placements",
   ],
   description:
 "Technofusion is a software development company that provides custom software products and ready-made solutions for businesses" ,
