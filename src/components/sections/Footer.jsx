@@ -5,7 +5,7 @@ import FacebookIcon from "@mui/icons-material/Facebook";
 import TwitterIcon from "@mui/icons-material/Twitter";
 import LinkedInIcon from "@mui/icons-material/LinkedIn";
 import InstagramIcon from "@mui/icons-material/Instagram";
-
+import StarCanvas from "../canvas/Stars";
 const FooterContainer = styled.div`
   width: 100%;
   padding: 2rem 0;
@@ -87,6 +87,7 @@ const Copyright = styled.p`
 const Footer = () => {
   return (
     <FooterContainer>
+      <StarCanvas />
       <FooterWrapper>
         <Logo>Vansh chauhan</Logo>
      
