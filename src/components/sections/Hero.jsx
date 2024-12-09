@@ -12,7 +12,6 @@ import {
   headTextAnimation,
 } from "../../utils/motion";
 import StarCanvas from "../canvas/Stars";
-import EarthCanvas from "../canvas/Earth";
 const HeroContainer = styled.div`
   display: flex;
   justify-content: center;
@@ -221,7 +220,7 @@ const Hero = () => {
       <HeroContainer>
         <HeroBg>
           <StarCanvas />
-          <EarthCanvas />
+          
           <HeroBgAnimation />
         </HeroBg>
 
