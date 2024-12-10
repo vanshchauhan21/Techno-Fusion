@@ -11,7 +11,7 @@ export const Bio = {
 "Technofusion is a software development company that provides custom software products and ready-made solutions for businesses" ,
  github: "https://github.com/vanshchauhan21",
   resume:"",
-  certi:"https://docs.google.com/document/d/1aqzcUIm-Sg3_DFZ5S1-FLwPJoh6axSrdDNt7PABAZWY/edit?usp=sharing",
+  certi:"",
   linkedin: "https://www.linkedin.com/in/vansh-chauhan-6aa684281?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=android_app/",
   insta: "https://www.instagram.com/_vansh_rajput123/?igsh=MWxiMWEybzB3YTlzZw%3D%3D",
   facebook: "https://x.com/VanshChauh12028?s=09",
