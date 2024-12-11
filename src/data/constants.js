@@ -202,7 +202,6 @@ export const experiences = [
       "ReactJS",
       "Redux",
       "NodeJs",
-      "WordPress",
       "Material UI",
       "HTML",
       "CSS",
