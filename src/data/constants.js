@@ -208,7 +208,7 @@ export const experiences = [
       "JavaScript",
       "Figma",
       "AdobePhotoshop",
-      "LightRoom",
+    
       "SnapSeed"
     ],
     doc: "http://www.dharasoftware.com/wp-content/uploads/2023/04/logo.png",
