@@ -1,10 +1,8 @@
 import React from "react";
 import styled from "styled-components";
-import { education } from "../../data/constants";
+
 import EducationCard from "../cards/EducationCard";
-import { VerticalTimeline } from "react-vertical-timeline-component";
-import "react-vertical-timeline-component/style.min.css";
-import StarCanvas from "../canvas/Stars";
+import IconCloud from "@/components/magicui/icon-cloud";
 const Container = styled.div`
 margin-top: 100px;
 display: flex;
@@ -49,31 +47,44 @@ const Desc = styled.div`
     font-size: 16px;
   }
 `;
-
-const Education = () => {
+const slugs = [
+  "typescript",
+  "javascript",
+  "dart",
+  "java",
+  "react",
+  "flutter",
+  "android",
+  "html5",
+  "css3",
+  "nodedotjs",
+  "express",
+  "nextdotjs",
+  "prisma",
+  "amazonaws",
+  "postgresql",
+  "firebase",
+  "nginx",
+  "vercel",
+  "testinglibrary",
+  "jest",
+  "cypress",
+  "docker",
+  "git",
+  "jira",
+  "github",
+  "gitlab",
+  "visualstudiocode",
+  "androidstudio",
+  "sonarqube",
+  "figma",
+];
+export function IconCloudDemo() {
   return (
-    <Container id="Education">
-  <StarCanvas />
-      <Wrapper>
-        <Title>Education</Title>
-       
-        <Desc
-          style={{
-            marginBottom: "40px",
-          }}
-        >
-          My education has been a journey of self-discovery and growth. My
-          educational details are as follows.
-        </Desc>
-
-        <VerticalTimeline>
-          {education.map((education, index) => (
-            <EducationCard key={`education-${index}`} education={education} />
-          ))}
-        </VerticalTimeline>
-      </Wrapper>
-    </Container>
+    <div className="relative flex size-full max-w-lg items-center justify-center overflow-hidden rounded-lg border bg-background px-20 pb-20 pt-8 ">
+      <IconCloud iconSlugs={slugs} />
+    </div>
   );
-};
+}
+export default IconCloud;
 
-export default Education;
