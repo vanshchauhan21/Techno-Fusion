@@ -242,7 +242,6 @@ export const experiences = [
       "python",
       "Google cloud",
       "AWS",
-      "Power BI",
       "VMware"
       
     ],  
