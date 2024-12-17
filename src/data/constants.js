@@ -257,7 +257,7 @@ export const experiences = [
     skills: [
       "java",
       "oops",
-      "SQL",
+    
       "MONGODB",
       
     ],
