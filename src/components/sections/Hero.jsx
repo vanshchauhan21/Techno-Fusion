@@ -2,16 +2,14 @@ import React from "react";
 import styled from "styled-components";
 import { Bio } from "../../data/constants";
 import Typewriter from "typewriter-effect";
-import vansh from "../../images/vansh.gif";
-import HeroBgAnimation from "../HeroBgAnimation";
-import { Tilt } from "react-tilt";
-import { motion } from "framer-motion";
-import {
-  headContainerAnimation,
-  headContentAnimation,
-  headTextAnimation,
-} from "../../utils/motion";
+
+
+import  DynamicIconCloud from  './DynamicIconCloud';
+
+
+
 import StarCanvas from "../canvas/Stars";
+
 const HeroContainer = styled.div`
   display: flex;
   justify-content: center;
@@ -220,14 +218,13 @@ const Hero = () => {
       <HeroContainer>
         <HeroBg>
           <StarCanvas />
-          
-          <HeroBgAnimation />
+          {/* <HeroBgAnimation /> */}
         </HeroBg>
 
-        <motion.div {...headContainerAnimation}>
+        
           <HeroInnerContainer>
             <HeroLeftContainer>
-              <motion.div {...headTextAnimation}>
+              
                 <Title>
                  Welcome to<br /> {Bio.name}
                 </Title>
@@ -243,25 +240,22 @@ const Hero = () => {
                     />
                   </Span>
                 </TextLoop>
-              </motion.div>
-
-              <motion.div {...headContentAnimation}>
+             
+              
                 <SubTitle>{Bio.description}</SubTitle>
-              </motion.div>
+            
 
               <ResumeButton href={Bio.resume} target="_blank">
                 Get More Details
               </ResumeButton>
             </HeroLeftContainer>
             <HeroRightContainer>
-              <motion.div {...headContentAnimation}>
-                <Tilt>
-                  <Img src={vansh} alt="vansh chauhan" />
-                </Tilt>
-              </motion.div>
+              
+            <DynamicIconCloud/>    
+             
             </HeroRightContainer>
           </HeroInnerContainer>
-        </motion.div>
+        
       </HeroContainer>
     </div>
   );
