@@ -90,7 +90,7 @@ const Footer = () => {
     <FooterContainer>
     <StarCanvas />
       <FooterWrapper>
-        <Logo>Vansh chauhan</Logo>
+        <Logo>Techno Fusion</Logo>
      
         <Nav>
           <NavLink href="#About">About</NavLink>
@@ -113,7 +113,7 @@ const Footer = () => {
             <InstagramIcon />
           </SocialMediaIcon>
         </SocialMediaIcons>
-        <Copyright>&copy; 2024 Vansh Chauhan. All rights reserved.</Copyright>
+        <Copyright>&copy; 2024 Techno Fusion. All rights reserved.</Copyright>
       </FooterWrapper>
     </FooterContainer>
   );

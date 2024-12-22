@@ -2,16 +2,12 @@ import React from "react";
 import styled from "styled-components";
 import { Bio } from "../../data/constants";
 import Typewriter from "typewriter-effect";
-import vansh from "../../images/vansh.gif";
-import HeroBgAnimation from "../HeroBgAnimation";
+
+
 import  DynamicIconCloud from  './DynamicIconCloud';
-import { Tilt } from "react-tilt";
-import { motion } from "framer-motion";
-import {
-  headContainerAnimation,
-  headContentAnimation,
-  headTextAnimation,
-} from "../../utils/motion";
+
+
+
 import StarCanvas from "../canvas/Stars";
 
 const HeroContainer = styled.div`
