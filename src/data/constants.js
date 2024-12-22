@@ -421,7 +421,7 @@ export const projects = [
     title: "Color-Picker-extension",
     date: "march 2024 - April 2024",
     description:
-      "The ultimate color picker extension brings creativity and efficiency to your web browsing experience. empowers you to effortlessly identify, capture, and utilize colors from any webpage with precision and ease. ",
+      "The ultimate color picker extension brings creativity and efficiency on your web browsing experience. empowers you to effortlessly identify, capture, and utilize colors from any webpage with precision and ease. ",
     image:
       "https://github.com/vanshchauhan21/Color-Picker-extension/blob/main/color.png?raw=true",
     tags: ["javascript"," html5","css"],
