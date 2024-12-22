@@ -229,7 +229,7 @@ const Hero = () => {
                  Welcome to<br /> {Bio.name}
                 </Title>
                 <TextLoop>
-                We are Providing
+              A Developer Platform
                   <Span>
                     <Typewriter
                       options={{
