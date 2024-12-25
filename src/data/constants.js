@@ -431,7 +431,7 @@ export const projects = [
   },
   {
     id: 4,
-    title: "Ecommerce-website",
+    title: "Ecommerce website",
     date: "sep 2023",
     description:
       "An e-commerce website is one that allows people to buy and sell physical goods, services, and digital products over the internet rather than at a brick-and-mortar location.",
@@ -449,7 +449,7 @@ export const projects = [
     title: "Portfolio",
     date: "Jan 2024",
     description:
-      "n online portfolio (may also be called a digital portfolio or e-portfolio) is an online representation of work you have created, as well as your skills and experiences. It could be a website, blog, or even a video channel.",
+      "an online portfolio (may also be called a digital portfolio or e-portfolio) is an online representation of work you have created, as well as your skills and experiences. It could be a website, blog, or even a video channel.",
     image:
       "https://github.com/vanshchauhan21/portfolio-Template/blob/main/Screenshot%20(1).png?raw=true",
     tags: ["JAVASCRIPT", "HTML5", "SCSS",],
