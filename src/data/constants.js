@@ -221,7 +221,6 @@ export const experiences = [
       "ReactJS",
       "JavaScript",
       "NodeJS",
-      "ExpressJS",
       "HTML",
       "CSS"
       
