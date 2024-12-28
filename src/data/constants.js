@@ -433,7 +433,7 @@ export const projects = [
     title: "Ecommerce website",
     date: "sep 2023",
     description:
-      "An e-commerce website is one that allows people to buy and sell physical goods, services, and digital products over the internet rather than at a brick-and-mortar location.",
+      "An e-commerce website is one that allows people to buy and sell physical goods, and digital products over the internet rather than at a brick-and-mortar location.",
     image:
       "https://github.com/vanshchauhan21/Ecommerce-website/blob/main/Screenshot%20(20).png?raw=true",
     tags: ["javascript"," html5","css"],
@@ -441,7 +441,6 @@ export const projects = [
     github: "https://github.com/vanshchauhan21/Ecommerce-website.git",
     webapp: "https://ecommerce-website-six-teal.vercel.app/",
   },
- 
   
   {
     id: 8,
