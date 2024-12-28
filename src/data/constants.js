@@ -296,7 +296,7 @@ export const education = [
     school: "DR.A.P.J Abdul Kalam Technical University (KSVCEM,Bijnor) ",
     date: "Oct 2021 - Sep 2025",
     grade: "7.00 CGPA",
-    desc: "Currently pursuing a Bachelor of Technology (B.Tech) in Computer Science and Engineering (CSE), currently in the Final Year, with a commendable CGPA of 7.00 at AKTU (Dr. A.P.J. Abdul Kalam Technical University), affiliated with KSVCEM (Kunwar SAtiya Vira College of Enginnering and mnagement ), positioning myself at the forefront of technological education and innovation.",
+    desc: "Currently pursuing a Bachelor of Technology (B.Tech) in Computer Science and Engineering, currently in the Final Year, with a commendable CGPA of 7.00 at AKTU (Dr. A.P.J. Abdul Kalam Technical University), affiliated with KSVCEM (Kunwar SAtiya Vira College of Enginnering and mnagement ), positioning myself at the forefront of technological education and innovation.",
     degree: "Bachelor of Technology - BTech, Computer Science and Engineering",
   },
   {
