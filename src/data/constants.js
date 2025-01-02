@@ -314,7 +314,7 @@ export const education = [
     school: "DAYAWATI DHARMA VIRA PUBLIC SCHOOL , BIJNOR (DDPS)",
     date: "Apr 2017 - Apr 2019",
     grade: "76%",
-    desc: "Successfully completed 10th grade with a commendable 76% grade from CBSE board at DDPS (Dayawati Dharma Vira Public School). Demonstrated strong academic performance and dedication to excellence in studies. Developed foundational skills in various subjects, setting a solid platform for future academic and professional pursuits.",
+    desc: "Successfully complete 10th grade with a commendable 76% grade from CBSE board at DDPS (Dayawati Dharma Vira Public School). Demonstrated strong academic performance and dedication to excellence in studies. Developed foundational skills in various subjects, setting a solid platform for future academic and professional pursuits.",
     degree: "CBSCE(X)", 
   },
 ];
