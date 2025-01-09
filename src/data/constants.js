@@ -250,7 +250,7 @@ export const experiences = [
     role: " Trainee",
     company: "CEA",
     date: "23 August 2023 - 20 September 2023",
-    desc: "Completed a intensive Training program in java programming at CETPA infotech . The course was designed to provide a comprenshive understanding of Java ",
+    desc: "Completed  intensive Training program in java programming at CETPA infotech . The course was designed to provide a comprenshive understanding of Java ",
     skills: [
       "java",
       "oops",
