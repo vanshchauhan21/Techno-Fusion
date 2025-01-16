@@ -304,7 +304,7 @@ export const education = [
     img: "https://ddpsbijnor.edu.in/images/ddps_logo.png",
     school: "DAYAWATI DHARMA VIRA PUBLIC SCHOOL , BIJNOR (DDPS)",
     date: "Apr 2019 - Apr 2021",
-    grade: "76%",
+    grade: "76",
     desc: "Successfully completed 12th grade with an outstanding 76% grade in the PCM (Physics, Chemistry, Mathematics) stream from CBSE board at DDPS (Dayawati Dharma Vira Public School). Exhibited proficiency in complex scientific and mathematical concepts while maintaining a strong academic record. Demonstrated disciplined study habits and a commitment to academic excellence, laying a robust groundwork for future educational and career aspirations.",
     degree: "CBSCE(XII),PCM ",
   },
