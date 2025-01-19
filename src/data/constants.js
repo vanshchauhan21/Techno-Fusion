@@ -313,7 +313,7 @@ export const education = [
     img: "https://ddpsbijnor.edu.in/images/ddps_logo.png",
     school: "DAYAWATI DHARMA VIRA PUBLIC SCHOOL , BIJNOR (DDPS)",
     date: "Apr 2017 - Apr 2019",
-    grade: "76%",
+    grade: "76",
     desc: "Successfully complete 10th grade with a commendable 76% grade from CBSE board at DDPS (Dayawati Dharma Vira Public School). Demonstrated strong academic performance and dedication to excellence in studies. Developed foundational skills in various subjects, setting a solid platform for future academic and professional pursuits.",
     degree: "CBSCE(X)", 
   },
