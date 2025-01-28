@@ -232,7 +232,7 @@ export const experiences = [
     img: "https://edunetfoundation.org/wp-content/uploads/2022/06/edunet-logo-white.png",
     role: "Trainee",
     company: "Edunate Foundation(joint CSR initiative between Microsoft and SAP)",
-    date: "25 November 2023 -  10 April 2024",
+    date: "25 November 2023 -  April 2024",
     desc: "Completed a Industrial Artificial Intelligence (AI)  with Cloud Computing under TechSaksham.This Program a collaborative CSR effort between Microsoft and SAP implemented by Edunet Fsoundation",
     skills: [
       "python",
