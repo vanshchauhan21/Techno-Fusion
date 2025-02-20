@@ -215,7 +215,7 @@ export const experiences = [
     img: "https://media.licdn.com/dms/image/C4D0BAQGahJkPfWKn2w/company-logo_200_200/0/1631330235832?e=2147483647&v=beta&t=IXgYeTkpqmtrN98mt9VLqsf0qDtWxNtQBKnyy4X0R0o",
     role: "WEB DESIGNER",
     company: "BrainyBeam Technologies Pvt. Ltd.",
-    date: " November 2023 -  2024",
+    date: " November 2023 ",
     desc: "Contributed to the design and development of dynamic web applications using React.js, focusing on creating responsive and user-friendly interfaces.Engaged in performance optimization tasks, including code splitting and lazy loading, to enhance the overall efficiency and speed of web applications.",
     skills: [
       "ReactJS",
