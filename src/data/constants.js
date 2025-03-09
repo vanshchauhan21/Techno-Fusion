@@ -249,7 +249,7 @@ export const experiences = [
     img: "https://github.com/vanshchauhan21/certficates/blob/main/IMG_20240424_224436~2.jpg?raw=true",
     role: " Trainee",
     company: "CEA",
-    date: "23 August 2023 - September 2023",
+    date: "23 August - September 2023",
     desc: "Completed  intensive Training program in java programming at CETPA infotech . The course was designed to provide a comprenshive understanding of Java ",
     skills: [
       "java",
