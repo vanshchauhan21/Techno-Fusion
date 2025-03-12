@@ -190,7 +190,7 @@ export const experiences = [
   {
     id: 0,
     img: "http://www.dharasoftware.com/wp-content/uploads/2023/04/logo.png",
-    role: "Full Stack Intern",
+    role: "web developer Intern",
     company: "Dhara software private limited.",
     date: "May 2023 ",
     desc: "Experience with MERN stack development, build a Admin Dashboard & Graphic design skills using Adobe Creative Suite. Spearheaded the development of business development service website on WordPress, implementing customthemes and plugins to meet client specifications, Strong expertise in on-site and off-site SEO techniques and tools.",
