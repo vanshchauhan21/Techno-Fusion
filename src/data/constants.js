@@ -264,7 +264,7 @@ export const experiences = [
     id: 4,
     img: "https://aktu.ac.in/images/logo.png",
     role: "Frontend Developer",
-    company: "University Name - (KSVCEM)" ,
+    company: "University Name - ()" ,
     date: "may 2022 -  2022",
     desc: "Mini Project or InterNship Assesment completed as a part of our university curriculum , involved the development of HOSPITAL MANAGEMENT SYSTEM designed to digitize and streamline the administartive and patient care processes of healthacre facilities in our city , The system aims to provide an efficient , user-friendly platform and enchance the quality of healthcare services",
     skills: [
