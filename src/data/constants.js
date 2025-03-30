@@ -186,157 +186,214 @@ export const skills = [
   },
 ];
 
-export const experiences = [
+// export const experiences = [
+//   {
+//     id: 0,
+//     img: "http://www.dharasoftware.com/wp-content/uploads/2023/04/logo.png",
+//     role: "Full Stack Intern",
+//     company: "Dhara software private limited.",
+//     date: "May 2023 - oct 2023",
+//     desc: "Experience with MERN stack development, build a Admin Dashboard and Graphic design skills using Adobe Creative Suite. Spearheaded the development of business development service website on WordPress, implementing customthemes and plugins to meet client specifications, Strong expertise in on-site and off-site SEO techniques and tools.",
+//     skills: [
+//       "ReactJS",
+//       "Redux",
+//       "NodeJs",
+//       "WordPress",
+//       "Material UI",
+//       "HTML",
+//       "CSS",
+//       "JavaScript",
+//       "Figma",
+//       "AdobePhotoshop",
+//       "LightRoom",
+//       "SnapSeed"
+//     ],
+//     doc: "http://www.dharasoftware.com/wp-content/uploads/2023/04/logo.png",
+//   },
+//   {
+//     id: 1,
+//     img: "https://media.licdn.com/dms/image/C4D0BAQGahJkPfWKn2w/company-logo_200_200/0/1631330235832?e=2147483647&v=beta&t=IXgYeTkpqmtrN98mt9VLqsf0qDtWxNtQBKnyy4X0R0o",
+//     role: "WEB DESIGNER",
+//     company: "BrainyBeam Technologies Pvt. Ltd.",
+//     date: "25 November 2023 -  10 April 2024",
+//     desc: "Contributed to the design and development of dynamic web applications using React.js, focusing on creating responsive and user-friendly interfaces.Engaged in performance optimization tasks, including code splitting and lazy loading, to enhance the overall efficiency and speed of web applications.",
+//     skills: [
+//       "ReactJS",
+//       "JavaScript",
+//       "NodeJS",
+//       "ExpressJS",
+//       "HTML",
+//       "CSS"
+      
+//     ],  
+//     doc: "https://drive.google.com/file/d/19tGLRe-sJl2qsY3ebSsGpVoC8igCwy3l/view?usp=sharing",
+//   },
+//   {
+//     id: 2,
+//     img: "https://edunetfoundation.org/wp-content/uploads/2022/06/edunet-logo-white.png",
+//     role: "Trainee",
+//     company: "Edunate Foundation(a joint CSR initiative between Microsoft and SAP)",
+//     date: "25 November 2023 -  10 April 2024",
+//     desc: "Completed a Industrial Artificial Intelligence (AI)  with Cloud Computing under TechSaksham.This Program a collaborative CSR effort between Microsoft and SAP implemented by Edunet Fsoundation",
+//     skills: [
+//       "python",
+//       "Google cloud",
+//       "AWS",
+//       "Power BI",
+//       "VMware"
+      
+//     ],  
+//     doc: "https://edunetfoundation.org/wp-content/uploads/2022/06/edunet-logo-white.png",
+//   },
+//   {
+//     id: 3,
+//     img: "https://github.com/vanshchauhan21/certficates/blob/main/IMG_20240424_224436~2.jpg?raw=true",
+//     role: " Trainee",
+//     company: "CETPA",
+//     date: "23 August 2023 - 20 September 2023",
+//     desc: "Completed a intensive Training program in java programming at CETPA infotech . The course was designed to provide a comprenshive understanding of Java ",
+//     skills: [
+//       "java",
+//       "oops",
+//       "SQL",
+//       "MONGODB",
+      
+//     ],
+//     doc: "https://github.com/vanshchauhan21/certficates/blob/main/IMG_20240424_224436~2.jpg?raw=true",
+//   },
+//   {
+//     id: 4,
+//     img: "https://aktu.ac.in/images/logo.png",
+//     role: "Frontend Developer",
+//     company: "University Name - AKTU (KSVCEM)" ,
+//     date: "may 2022 - oct 2022",
+//     desc: "Mini Project or InterNship Assesment completed as a part of our university curriculum , involved the development of HOSPITAL MANAGEMENT SYSTEM designed to digitize and streamline the administartive and patient care processes of healthacre facilities in our city , The system aims to provide an efficient , user-friendly platform and enchance the quality of healthcare services",
+//     skills: [
+//        "HTML5",
+//       "CSS",
+//       "JavaScript",
+//       "Bootstrap",
+//       "Figma",
+//       "Canva",
+//       "Lightroom"
+//     ],
+//     doc: "https://aktu.ac.in/images/logo.png",
+//   },
+  
+//   {
+//     id: 5,
+    // img: "data:image/jpeg;base64,/9j/4AAQSkZJRgABAQAAAQABAAD/2wCEAAkGBxMRERITExMVFhIWGBYYGBgWFxgZFxkXIBkXFxUbHRoYHSggGhslIB4bIzEiJSouLy8uGyAzOzMvNygtLisBCgoKDg0OGRAQGi0lHh4rNy03Ky0rNS0zKzcvKy0tLjctKy0uKysuMi0vKysrLSstLSstNys1Li0tLy0vNy0rLf/AABEIAOEA4QMBIgACEQEDEQH/xAAcAAEAAgIDAQAAAAAAAAAAAAAABQYEBwECAwj/xAA/EAACAQMCAwYEAwYEBgMBAAABAgMABBESIQUGMRMiQVFhgQcycZEUQqEjUmKCscFykqLxFSQzstHwc4PhFv/EABoBAQADAQEBAAAAAAAAAAAAAAABAwUEAgb/xAArEQACAgECBQMDBQEAAAAAAAAAAQIRAwQSITFBUWEFE3GRofAiIzKBsRT/2gAMAwEAAhEDEQA/AN40pSgFKUoBSlKAUpSgFKUoBSlKAUpSgFKUoBSlKAUpSgFKUoBSlKAUpSgFKUoBSlKAUpSgFKUoBSlKAUpSgFKUoBSlY8t7GrBS66j+XPe+w3oDIpUNxPmSGAgOJMnyQ6f8xwv616xcYWRC0WlyB0Djr5EjODQEpSoJeNTaSXtdDeAMyEHz3HT7VlW3GFYd8BG8tSt9Nx/egJOleKXKnxr1BzQHNKUoBSlKAUpSgFKUoBSlKAUpSgFKUoBSlKAUpSgFKV0llCjegO9Q/EuYI4shf2jAgEL0BJwMn+uKiuYebIoDoOXf9xD08tR8P61xdypa28UiRBJJDGiiQk6GYfmJ3woBzjyxQEn/AMQPZ65mEQOfmOkYydOc+OMbVGJzFYoSBKgySSQrYJPUkhd/rVN4n2ZkDzXBncMCyjYFfFVIyF6eB6EbZr04TcPLIsVtFHqI3LADONWSwUhcYbGnB6DqamiC1XvKsN3L+IMrsjBdIQjTgDGxOdvHA8c1J8I5fgtixiUgkYYlmOfHcE4/TxrM4JwwWtukQOQgOWO2SSWY+gyTVE45xBLedprK6yZGJkQDUmeuckaWB+488UBbeM8MnlZOymWNQDqDRh9/Ajx6ZB3qtDlW5aZ0F43dVG1d/wDNqAGA2xGjz6YqR4FzyjgrcgRsBsyhire25U/p9KsHCOMQXRfsWyVxqypXrnB36jY0JMXg9u8UawytqdQQrAYDKOm+fmA69D9epxoOGTwylhPmAkjS7NkKcnY52YHYHPQ7/KBVk01rnnVWF6rXEeq2AVU3YKQRuSR+YMScDcgCoBco7qZflKzoOoyFkHuO63vp+tSFrdrJ0yG8VYYYe3iPUZFayFlZKQe0CtqDAo52UFQ67M2AQcg51bNtsAZCPjZiz2U4l0ZIWaRd1BbYPswbAwOudj+YVINi0qI4Bx1LqMOuRvgg9VbY4P361L1AFKUoBSlKAUpSgFKUoBSlKAUpSgFKV5zzBFLMQAOpOwoDw4jfrCmpup2VR1Y+AFUPni9uiwjVXEekFmQHDE9VyOijy+9WS0aKaZn7RJJBnCqQRGoONh5+Z86l4CDuCCMkbHxBwR7HagKFyTytqK3Ey4Qboh8T+8R5DwHj16dbY/ErO4bsGeOQt0UglWI8mxpJ+hrw5xuAkUasyhHlQSAnBMIyZAB1PgCB548aheaeN6o7d0t3WNJFeKRsIpIBKgKN9JG/hnFSQWOHlWzU5ECe+WH2YkVmjhEAZWEMYZTkMFAIPoRXny9fm4topWxqYd7HTUCVP6ipKoJPK4i1oy9NSkdM9Rjp41pCeBo2KMCrKcEEYNb0rBv+DwTsGliV2GwJG+PL1HoaA01bW7yMERWZj0CjJq68n8v3dvcLI6BYyCrgupOCMjZSd8gfrV2s7GKEERxogPXSoGfrjrWRU2RRxiuskYYEMAQeoIyD7GoGTiEs5fsz2UKbNI2x/Xp9P9qj2uYM/wDVuZCPzJ0/XesufqUV/FcO7dX8dX81R2R0cnz5+FdfPQ9uZuXcoDa28GvPeyiZI/h1d371g8B4UzsVvbW3XbuHEauT5aYzuMeOB7+Exwe4LuBFOXUfOkqnWB6HxNSl5wqGV0eSNWdCCrHqMHI/XeuzT5/ehuSr6P6NFGXE8cqf59SN4mY7K2kaNFQKMgKu2o4UEgEZGcZ36VXeWOejq7O6ICk92QD5cnYN6ev386sMvGrRZGtZbhXkYkFZAMd7ohIUJ6YO9Vt+EcNu3aK3l0TIWyF1b42bAk+YDH5TVvuQurPT02ZLdsdVd0+Xf48mxAaVDcu2jW6di0hkQH9mWHeVf3Sc7jy/2qZr0UilKUApSlAKUpQClKUApSlAK1vz5xdrmYWkALBWw+n8z7YH0Hj6/Sr7xWV1ibs8doRhc9ATtk+g6+1Q3LvAltQx1F5XOXkPVvHp4DxoCv8A/BTYW+zappmVGKgkhAdTCMHYnAJJYgVaeU4WW1j1jDNl/mLE6u9k7AAkknA2FSElujaS4B0nUM9AcFSfXYn71SeFc/tPfRwpGvYOxVeuvGCQ2c48M4x0r3GDknXQtxYJ5FJxX8UevxQi2t2/+RfvpI/oaxprS5v7a1jEbho9Wp5MIhHRCPFtsbgefnWwniVsZAODkZAOD0yPI13rwVETyxwtrW3ETuGILHI6DO+N+vjvUdzHx8BQsEgJJOor1AHkfXzHlXvzVxlYUMWCzyIw2ONKkFc9Ovp6VQi9aOk0279cjH9Q1uz9qD49X2Jiz49NE2dbMPEOSwP36e1SdhziRntl1eWgAH1zk1VoYnfIRWYgZIUEkDIGcD6iprhXKssya2bshnYMpyR54yMe9dWbHgSudGfpsuqbrE2/8+5erG7SaNZEOVb7+RB9a96xOF2C28SxrkgZ3PUk7k1l1jSrc9vI+lhu2rdz6mHxLhyTpofIGQe6cb/3qH4nHcREiJ4re1QA6sZPluCDvn/fNTt3eRxLqldEXzdgo+5rD4fxi1vO0SKSOYLgOB3hg5x12IODXLl08Z21wfdcPvzo6sWdwaT4rs+P25WevB0bs1aRkd2GdaAAMvVNwBnY/rWdUDzhxtuH2vbRwiRVZVK6tAVTsDsp2zpGNuvpWD8P+bjxFJtaqkkbDurnGhh3Tv45DD2FXQjtikVTluk2UP4mcvyW9xJcAEwTNq1D8rn5lbyydwfXHhVOtb54pEkQkOrBlx1yDt9+lfSs8KurI6hkYYKsAQR4gg9RVHb4Z263kU8bFYlbW0J3GRuuluoXOMg5rhy6P9e6B9TofXoLD7WdcUqvvw5Pz07E1zAzqiSKSult9yAMjGWx1A8vMipbhV520Ybow2YeTDZhS5iDAgjIOxqP4PZfh2YBh2bYwoVVwd8k6fmJ23wOlaB8oTlKUoBSlKAUpSgFKUoBSlKAqHFeLM3E4bdGwiqS/qSpfH6LXlxjnGOLUkIEjqCS2e4vuPmOdttt+teE/Ditve3LL/zEvaMM7lUJwi/5cZ+3hVf4VwZ7jIgiOhjh3fZBjpobqd8nGD4A58ZINqwnKg+YB/StLDmi3srt2sLVCoJXtJWdiVzv2e+I1Ph1OMfStyC2PYdnnfs9GfXTpzWneCci3UwH7PQv70ndHsPmP2xXRg209zNf0yOKpvK6XDhdXz+puDg3EVuYIp1BCyKGweoPiPY5HtWbUXy1wo2lskJfXp1bgYG7FsYyfOu/G+OQWaa55AgOwG5Zj5Ko3P8AaueVW6MzKoqclDlfD4MbjPLkdy4dmdWwAdOMEb46g7710flK1OO6wwMbMd/U+tV5fixZ6sGOcL+9pTH2D5q2R8cge1a6Rw8Kozlh5KCWBB3BGOh3q1Z8iSSk+ByPS4ZNycU2zr/ythHktHCh/M7AFj5ZY5Y+lYNtzzw+Rwi3SajsNQZRn/EwA/WtLXF1c8VvVBOqWVtKKT3EXc4HkoAJPicE7mprjXwzvIez7PTPrOk6Bp0HzbUcaf4v/NVttu2y6MVFVFUi/fEXmufh6wmGONhJrGt9RCkacDAI6gk9fA12+GnM0l9DN2xBljk/KABoYZTYeoYe1QnM3LMsXA+zll7WW3KyggbIo7rICdyqqW3P6YFVr4O8U7O/MRPdnRl/nXvr+gf71BJaPjdJi3tV85WP2Qj+9a24BxiWwniuEBwQdjsJI9RV1+49iAavXx2nx+CTz7Zvt2Q/vVIueMWz8Mhtisn4qKSRlcBdAVmyykk5IIwdh1A9aA3pcmLidg/ZtmOeJgp8mxtnyKsNx5itQ/Cnihg4ikbbCYNEwPg/zLn1yNP81d/hTzh+Fn/DSt/y8xGCekcp2B9FbYH1wfOov4gW7WPFpWTb9olxH9SQ/wD3hvtQH0VUdxi8aJVIxgnGT5+H9603xX4yXj57KOGFfM5kce5wv+mtmcOnfiPCoZD/ANV40J2x+0U4fGcAZIb716x1uW7kV593ty2c6PF+NyAksThMEjA8wK9uYeMfhzbnSDHI+lm8gRlSP6/QGsFOW7qQftJEjGcgAa2A3AXwGkAnbJG9ZvMECw2LBlEojVcBs4JBAU7HO316VfqFjVbWr8HJopZ3fuJ15/LLNA+VB8fH616VAcp8U/ERh8Y1LkjwDqSr+v7tT9cpoClKUApSlAKUpQCsfiFwI4pHY4VVJJ9AN6yKiObMfg58nC6d/pkZ/SgPOxmjuYQwGqOQdCPDoQR+lZF/c9hFqVQcEADcADoMaVJ9gKi+UMG1jIGFYuQCANixxsNh51hcY4nLcJmGKRbaNg8kjnQJI1yXVV6upGfriqs09sfJXkntXktXD7xZYxINgc5B8COu/l6+Iwa1/wAwfFZI3ZLWISYOO0ckIT/Co3YeuRVs5thKcOvBCMHsZPl6/KdXvitJcrcZtLYubm0FyTjRqI0r1z3WBBztv6VbFOuJ7V1xNofD3nO44hLKkkUYSNAxZNQ7xOFXBJ6gMc5/LWtuYL6TiXEiob55RDFn5VTXoX2/MfUmrrynz/w5JTGtr+E7UqCyhezyNl1acaevXGN961xeu1jxF9jm3uNQHiVWTUv+ZcfepBeebfholtaPPDLI7xLqkD6cMo+crgDTgb7k7CqtydxNwLuzBJW6gmCr4dssbMh9MgFfXK+Vbv4lxSBrGScupt2iZtWdipU7fU9Mdc7V8/8Aw/Vn4lYqvzdqp9lBZ/8ASDQHvyJxNYOI2krHCa9JPgA6tHn6DVmvoq8uVijeRzhEVmY+SgZNaF+I3JEtnNJLFGXtHJYFQT2WdyrAdFHg3TGB161yXm29uIltTcyyx4AEYwzMB0BKjW49CTQG9LDnbh3EQbZZSHmVk7N0ZWIKnIBxpJxnofCtE2F29ldxu2z28w14/gfEg9wGHvWzvhLyLLBJ+Muk0MFIijb5hnZnYflONgOu5zjas/jPwxtJ72aea6ZVlfV2S6EwSBqyzZJycnYDrQkrfx2ugbi0AOQIWb2Ztj/prK+GfIVne2cd1OJHZmkGkOVTCuVHyYbw862NLyzaYjkNvHNLDEscbSgO2lASg1MDg5J72M71rHg/ximmvLWI28UFu8ixsO8zgMdC97uhcMRnu0BmczfCBpbotavFFbMoyr6iUboQqgd5T13Ybk1IcR4FwyeSzgvr9ZruNBAAkgRpd+5rClmB6jOoZJ8zWyLyTTG7fuqx+wJr44ttWjUoPcCsSNtO4AOR07xG/nigPrLhHKNja47G1iVh+Yrqf/O+W/Wpqqd8LebxxKzBcj8TFhJh5nHdfHk43+oYeFWLj1yY4JGXZsAA+WSFz7ZqvJNQg5vklZDdGJxHmGGJiu7MOunGB7k9a8LiaO9t5UQ/MpXDbFSR3c+/lVffhDIy6+9nVkLkbgHSMsNskYzj+tZ/Bgiz6YyD3XDDfOxXBbwJznp4EVj6bW6mWb9xJRbquv8AXfyeFJ3xM3k7hJtEMbPrLEtsMAHC7D02qzVBR32LqKEKWJDMxHRFwQpP1OwHoana2ywUpSgFKUoBSlKAVHcw2QntpYidIYAZxnHeB6VI15XQyjfSgIrg8BjijQ4yiqu3Q4GM+/Wu9iqmB0fAVTLGc7ALqYDOf4SKqvEbvVcAyXDxRLIqRpHnMjjSXLY/KCQu/wDv5c2IiXDl+yAZVdTPI2gNode7F0Zg0a5PXvjwO1eWW1WU5Z7FZduBXHa20LkhtSLkjcE4w31Gc1rfjvBOAR3MsUsrwSoQWRS4QalDjHdYDYjYHbyq6ciXQkt5NJ1RiaTQ2gxqytiQ6VPRQzsvj8tVXmn4Ttd3Utwt5pMrairxasbAAAhxsAAOlTjdxTPWOW6CZqvmsWaTsLOSR7cKO9IMHVvqxsCVxjcjz9K2bzd8P5r22tbmLAvRBCsyMcdoQi5OegcHI32IxuMVH8H4BwXh10i3V6s90rqoQriKOTOxcLkKQf32wOuK3LVhYfNUfIvFGIj/AAko3/MyBAfPJbT7itnchclx8JDXV7NEJyNIJYLHEpxqAZsamPidvIeJOv8AmP4p3/4yTTNpghuHARFUa40kIAZiCxyBvgjrXb462YF9BdLvHcwKVPqhwcemlo/1oDZnF/ixwyDIWVp28oFLA/zthP1qO5K+JScQvmtkthAGjdkcsGdnXScFQoA2LH5j8ta05O5Ssrm2/E3nEUt01snZ9xXyMHZnJzkEHAU9a2v8POV+EBVu7EGVkZkEztIWDAFWwGwBseoUZBqAab5i554nK8kc91IuhmRkiPZKCpKsP2eCRkHqTXlcfD/iXZNcNZOUA1Ekxs+nqW0hi5+2ayPjHwz8Nxa4AGEm0zL/ADjD/wCsMfet7fDDiv4rhVnITlhGI289UeYzn66c+9AaY+FHPclncxW8jlrOVlTSxyImY4R0z8ozgEdMHPUVX/iFYm04neRrtplMiegfEyY+mrHtWJz9ZrbcSvYo9lSZyuPyg98AY8s49quHxztSX4feEb3Fsob/ABqA33If/TQG5OIcaEvBZbsbB7J5foTCWx9Qdq+deQuK2lu12L0OYZbV4cRrqcsXjIxkgAjTkEkbgVsDl/joblG7UneHtIPZ3Ur+kmPaqh8IeS4OKzzrcNII4VRsRkDUSxGCSDtgHpg+tARnw75tbhl9HNkmFv2cw84yRlsD8y/MPoR419T3sC3EBUMCrqCrDceDKR5joa1hzf8ABKCdrf8AAslsqhll1a3LDqrDJ3YHIOSMgjyrYfKnBPwNpDbdq0wiGkO4AOM7DA6AdAN9sV5lFSi4y5MFX4hYXhYqyOQf3PkO5OdtvEnJ33qQ5XsDEZdassuw3G2nrsfHcb/QVa3rGlNZ2H0yGLKsu5trvxPChTsrHB5O0vy2/wA0h26EKHiTP8I0ufrKKutQ3DeHxrKGVcEBuhPjjNTNaZ7FKUoBSlKAUpSgFcEVzSgKBxC2lhmaRAuchQ7DKxqWd5mPlsFGfWrX+HikKOyI5X5GKhiM46E9M7dK8uJx6ZPRh/8Ah/8AfWqnz3fTqltbW0giedmXOdJCKoJwQMqN/DfoB1rzNpK2W4MPvTUO/fxxNgCQDYkD3r1rQNhyRLOyFp0PaGZdantMSIupVY5HzruD4DrvtWVxC2mtIEuLS4uTo7PtH7WMx7qM5RW1ppc6NLqfr50f9Eubiaz9JxOShDMm34pdud90Q3xy4X2HE2kA7lzGsnprUdm4+wU/zVc/g/8AELtojZ3LZniRjExO8sajJUnxdR9xv4E1W+fb5+KcHS7dR+IspgkjAYBikAXUAPEtoyOmxO3SqTZ8FeSwN9bFu0tXK3CqTqVT3o5hjfTglW/w56ZrojJSVoyc+GWHI8c+aIEzFu8dydyfU5P3O9bS40/4/le2n6y2MgjfzCg9lj/K0Te1VnlTl43PB+LTAZaE27p6dn2jTf6GNWD4H3C3MfEuGOe7cQll9Djs3I9e8h/lqSopnJXK8nFLkwRSRxsELkyavlBUHAUHJ7w22rf/ACPy9FwG2lW4vYysjiQl9MSq2ApxqY5yAv2r5y4PZ36zsLVLkToWjYwB9Sn5XUlOlWuw+EvGLttcyCMn89xLlj7LqbP1AoCzfHnsbu3s+IWzrJEHkgZ13B/Mu/kCr/5qpHK3xKu+G2kltbiPvuziRwWZMqqnSM6fDO4I3O1bn5e+Fqx8Ml4fdTmWOSVZcxjQUI0ZCltWx0+Q+Y/WpXgXIXCbWQpFbRNMoDHtMyuPJv2hOn2ApYNFcj8jXfGLkSyhxbs+uad8jXk5YIT8zHfcbDx8jvX4jcjDittBAsgh7KRWDadWE0MpUDI8x4+FXADGw6VzQFI5Y+GVpZ201s7SXEczRvIspAUshyuFTGBnGQSc4FW7h/D4bdAkMSRIPyxqFH2UVk0oDHubgqQqjLnoPADxJ9K6WtyxZkcAMuDt0IPjWBf36x3Axlm0hNI65JyNztWFccQkW6jDhULaAQN8qTtk/XNYuTW7crbk+E9tJWqrq+98efijshp3KPLpZN310kSM8jBUXck/+/pVL4tzkDJAlthgzLrLKc7tp0gHGD6/Ssr4ma/w8eM6BJ3vrg6c+nX3xVV5J4d2twJCO5F3j/i/IP7+1bZxGxeCTNJPOcYjj0xr/E3zSE/Tuge/nU3WHwuyEKEeLMzsf4mOf0GB7VmVBIpSlAKUpQClKUApSlAYnEoNaHHUbj+9a45htxxKPNuf+ZtZCVVjpzvuAynYNpBDA+Hh1G0q1Jz1wd7O6/ERZEcjagR+WTqyn0PX1yRUSipKmWYsssU1OPNGC/FOJMxijsplZlKEvrcksrozGUgAnBTDE5/ZLucnPMvCOMXPaRtbRxiUkM5WNSEL9oU7TJfs9W+Bny6bVmX1m/G4ExIIpoWOVOeybUBhttwdj5+PnVs5GnWGM2b3QnuYclx3sqpIwAW3ZRkb+oHlXL7T3VJujbWuisKyYox3Lmqbrzd12OeD8jxw8NnsmYM06uJHxtqZdIx6Ltj6Z8arHwk+Ht7wyadrh4DDNGFaNGZiWBypOUAwAWHU/NW01auwNdUYqKpGJlyyyzc5u2yvct8nW9jHdwxj9jcSM5Q9FVkVGQea7Nj0bHhmuOXeReH2DB7a2VJBkayWd99j3nJIz6VncT4mY2I7qhQpJYFs5DnAAIwAEY6vYAmsF+JSu7gBwUcIUjIOBpVg2ezbVqycE6Vwu+DmvVFkNNOSssSqB0GK5rF4ZcGSMMcZ1OuR0Ol2TUPQ4z7+NZVQUSi4tp9BVE534dNBN+OgYjAUPjqvRQcdCpGAR/6L3WkeZuO3Es06PMxRZHUICQmFYgd0denjXFrpxWOnz6V0Zx6zJGEOP9F85Y55WdlimUJK2ysPkY+A33Un3H9KuDSAEAkAnoCdz47edfOplrM4dxZkuoJndmKOhJZix05GRk+GM1y4dfJKpq/JyY/UGlUlfk+gKUqD4rxt4ZNAjVht+fBOcDYY2OTjy6ZIrXNYiOaAwuhoBLlVYaRk5BI8PpWY/CnmnE7/ALNRoOk4LkqB1xsOlT0cwZVYdGAI88HcVDW/HkmmaJASFD6m8mD6ADjYZwSM7kDpWbH0zH7k5ydqUt1dL/Gdr1slCMYqmlVkjcgMCrAFTsQRkEeRB61hcEsoVyIVUJqLHScjV0P9MY9KjOYr87RLnUwJ23J2OlQPHJGPt4ZqxcEsexhVT82Mt9fGtI4jPpSlAKUpQClKUApSlAKUpQCvG7t1kUq3T+h8DXtSgKdDdJFKbcgRyL0UgAMvgyeDD6dMeGKkXhSQMCCNQALIxR8A5HfQhh96zOPcFjukwyrrXdGIzg/+Ko9jxGa1uVtpwxVjhSQSVPh3ujofA5yM79KUSm07RdpuKRRYEkqIT0DMASPfc/Ws63uFdQysGU9CpBB+hFUvi2pJBKCwVjFrKHS2ldYK6huAdQb6qR4iueBXhik73aBC0gaSVSodSR2DEsBmTJK+ZHXoKEGLzrzXNBcvbrb6nKAxSIx1EHOCU0kNhgdj5eFa1u+L3UjlXklLgtlSWyCT3xjw38PTFfQqSfesKxtdNzcSaQA4iAIxvgOWO2/VvGrY5EuhtaT1THghSxK0ud8/rdfCIj4X3zy2CK6sDEzRgsCNSg7YJ64+X+WrdUalmUm7SNgEckyoehbGzr+6/QHwI9RmpDVVbduzL1GRZMkppVud12O1au585LnM73FuvaLI2WRQAytgZOPzAnfPXf3rYs/FYEbS80St+6zqD9iayg2RkdKpzYY5Y7ZHHnwRzR2yNOcJ+HV5Kw7UCGPxLFWbHoqk7/Uitg8M5HsoAP2IkYfml75J+h7o9hVhLV1Z68YtLjx8lfyV4tHix8lb8kXc8Ycu8UEDSMhCszEJEpwDjUdycEbAVHcNtpY7xzO6u00ZcBdWlCjKuF1Eno/p412m4mttcXOoMQwil7o23HZHJOFX5V6kVhRcVaW7iJUABbhcAkn5ot89CDgdNvXy6DqLBftqjcDBJVhg9DkHY4IOPcVWuBcPFv8AMwMpRRgEdxcAsoA2xqJ38iN645j492PdywY5ChRlmOBjGRgjJH2NZfKdhLNH2sw0azkLvq0+uehJzn2oCR4Zw9ZJe2IO2B1OCRnG2cbZO/t5ip+uFUAADYCuaAUpSgFKUoBSlKAUpSgFKUoBSlKAV4Xdosgww38D4ivelAUvigmtXYvoMBxpO49CCxOkN5A4BzjNc2KQNplSOPPUMEUEH7ZBq4uoIIIBB2IO4IqvXXKqCQy279kx+dOsb/UdVb1H2NAYnG+NNbRdosZk3AIzgAb7nY7f+a55a5mW7DYUo6Y1DORg5wQfauOIK8AJfKrv3wCyj1JA296pUH/EYmJjOtSc5HZlHHgcbdaA2os1VXmbnMwMqW5jcjOsnLaSCNsAisvht+7xq0iFH/MpI2Ppg9DUf/8AzVoWLFDvk41tp/rQFBeXJJJySSST4nxrKsZ5mdBEZC67oFJJGO9sPL0q7QctWYOez1ehdiPtnf3qSupdEcjQqgk0nHdAyQNgcY+lTZFHXlWW80ubo7HGgNp1jrqzp6Dpsd6l5LtQdOoaj4ZGftWuXub+5x3pkB6hVVAB/iypP03rN4Hy/IkySlhqXPcUlycgqSxIG+9QSWDinDkmkDszDu6CBgZGdXUjIPqpBrhYUQFYwFL7ZG7FjsCSd2P1NYV7y7cXzLrX8PGjEh2YmQ+GQinC582OR5VaOC8BitVATUzeLyMWf1wT8v0GKAjeBcpRwsJHGqTHVyWb1LMep9Bt96s1KUApSlAKUpQClKUApSlAK4rmlAdDmuDmvSlAeBLV0JasqlAYRL15sXqRpQEWWkrzZpamMVxigIUtLWHNZs3WNfYYP6VZsUxQFNm4RIQcFl+h6fcVAXXI8j9ZWJ83DMf+/H6VtHFNNAarj5FkByGQf/Wc/q9TllwSWNQpd2x4nr9zV400xQFVi4cw6rn6k1nRCRRgAAegxU5imKAiA0tdw0lSmK5xQEcC9dwXrOpQGKC1dwWr3pQHkM12Ga70oDiuaUoBSlKAUpSgFKUoBSlKAUpSgFKUoBSlKAUpSgFKUoBSlKAUpSgFKUoBSlKAUpSgFKUoBSlKAUpSgFKUoBSlKAUpSgFKUoBSlKAUpSgFKUoBSlKAUpSgFKUoBSlKAUpSgFKUoBSlKA//2Q==",
+//     role: "Open Source Contributor ",
+//     company: "Social Media",
+//     date: "April 2024 - Present",
+//     desc: "Contributed to different open-source projects and learn from industry experts",
+//   },
+// ];
+
+// export const education = [
+//   {
+//     id: 0,
+//     img: "https://aktu.ac.in/images/logo.png",
+//     school: "DR.A.P.J Abdul Kalam Technical University (KSVCEM,Bijnor) ",
+//     date: "Oct 2021 - Sep 2025",
+//     grade: "7.00 CGPA",
+//     desc: "Currently pursuing a Bachelor of Technology (B.Tech) in Computer Science and Engineering (CSE), currently in the Final Year, with a commendable CGPA of 7.00 at AKTU (Dr. A.P.J. Abdul Kalam Technical University), affiliated with KSVCEM (Kunwar SAtiya Vira College of Enginnering and mnagement ), positioning myself at the forefront of technological education and innovation.",
+//     degree: "Bachelor of Technology - BTech, Computer Science and Engineering",
+//   },
+//   {
+//     id: 1,
+//     img: "https://ddpsbijnor.edu.in/images/ddps_logo.png",
+//     school: "DAYAWATI DHARMA VIRA PUBLIC SCHOOL , BIJNOR (DDPS)",
+//     date: "Apr 2019 - Apr 2021",
+//     grade: "76%",
+//     desc: "Successfully completed 12th grade with an outstanding 76% grade in the PCM (Physics, Chemistry, Mathematics) stream from CBSE board at DDPS (Dayawati Dharma Vira Public School). Exhibited proficiency in complex scientific and mathematical concepts while maintaining a strong academic record. Demonstrated disciplined study habits and a commitment to academic excellence, laying a robust groundwork for future educational and career aspirations.",
+//     degree: "CBSCE(XII),PCM ",
+//   },
+//   {
+//     id: 2,
+//     img: "https://ddpsbijnor.edu.in/images/ddps_logo.png",
+//     school: "DAYAWATI DHARMA VIRA PUBLIC SCHOOL , BIJNOR (DDPS)",
+//     date: "Apr 2017 - Apr 2019",
+//     grade: "76%",
+//     desc: "Successfully completed 10th grade with a commendable 76% grade from CBSE board at DDPS (Dayawati Dharma Vira Public School). Demonstrated strong academic performance and dedication to excellence in studies. Developed foundational skills in various subjects, setting a solid platform for future academic and professional pursuits.",
+//     degree: "CBSCE(X)", 
+//   },
+// ];
+export const projects = [
+ 
+  {
+    id: 18,
+    title: "AI Career Coach",
+   
+    description:
+      "AI Career Coach project addresses several key challenges faced by individuals seeking to advance their careers:",
+    image:
+    "https://github.com/vanshchauhan21/Certificate/blob/main/Screenshot%20(29).png?raw=true",
+    tags: [
+      "Industry Insights",
+      "AI resume ",
+      
+      "Cover letter Generator",
+      " Interview prep",
+     
+    ],
+    category: "AI",
+    webapp: "https://career-coach-swart.vercel.app/",
+    
+  },
   {
     id: 0,
-    img: "http://www.dharasoftware.com/wp-content/uploads/2023/04/logo.png",
-    role: "web developer Intern",
-    company: "Dhara software private limited.",
-    date: "May 2023 ",
-    desc: "Experience with MERN stack development, build a Admin Dashboard & Graphic design skills using Adobe Creative Suite. Spearheaded the development of business development service website on WordPress, implementing customthemes and plugins to meet client specifications, Strong expertise in on-site and off-site SEO techniques and tools.",
-    skills: [
-      "ReactJS",
-      "Redux",
-  
-      "WordPress",
-      "Material UI",
-      "HTML",
-      "CSS",
-      "JavaScript",
-      "Figma",
-      "AdobePhotoshop",
-      "LightRoom",
-      "SnapSeed"
-    ],
-    doc: "http://www.dharasoftware.com/wp-content/uploads/2023/04/logo.png",
+    title: "github-profile-readme-generator",
+   
+    description:
+      "You can share information about yourself with the community on GitHub by creating a profile README. GitHub shows your profile README at the top of your profile page. You decide what information to include in your profile README, so you have full control over how you present yourself on GitHub.",
+    image:
+      "https://github.com/vanshchauhan21/github-profile-readme-generator/raw/main/Screenshot%20(14).png?raw=true",
+    tags: ["Portfolio","Readme"],
+    category: "web app",
+    // github: "https://github.com/vanshchauhan21/github-profile-readme-generator.git",
+    webapp: "https://github-profile-readme-generator-iota.vercel.app/",
+    
   },
   {
     id: 1,
-    img: "https://media.licdn.com/dms/image/C4D0BAQGahJkPfWKn2w/company-logo_200_200/0/1631330235832?e=2147483647&v=beta&t=IXgYeTkpqmtrN98mt9VLqsf0qDtWxNtQBKnyy4X0R0o",
-    role: "WEB DESIGNER",
-    company: "BrainyBeam Technologies Pvt. Ltd.",
-    date: " November 2023 ",
-    desc: "Contributed to the design and development of dynamic web applications using React.js, focusing on creating responsive and user-friendly interfaces.Engaged in performance optimization tasks, including code splitting and lazy loading, to enhance the overall efficiency and speed of web applications.",
-    skills: [
-      "ReactJS",
-      "JavaScript",
-      "NodeJS",
-  
-      "CSS"
-      
-    ],  
-    doc: "https://drive.google.com/file/d/19tGLRe-sJl2qsY3ebSsGpVoC8igCwy3l/view?usp=sharing",
-  },
-  {
-    id: 2,
-    img: "https://edunetfoundation.org/wp-content/uploads/2022/06/edunet-logo-white.png",
-    role: "Trainee",
-    company: "Edunate Foundation(joint CSR initiative between Microsoft and SAP)",
-    date: " november 2023 ",
-    desc: "Completed a Industrial Artificial Intelligence (AI)  with Cloud Computing under TechSaksham.This Program a collaborative CSR effort between Microsoft and SAP implemented by Edunet Fsoundation",
-    skills: [
-      "python",
-      "Google cloud",
-      "AWS",
-      "Power BI",
-      "VMware"
-      
-    ],  
-    doc: "https://edunetfoundation.org/wp-content/uploads/2022/06/edunet-logo-white.png",
-  },
-  {
-    id: 3,
-    img: "https://github.com/vanshchauhan21/certficates/blob/main/IMG_20240424_224436~2.jpg?raw=true",
-    role: " Trainee",
-    company: "CEA",
-    date: "23 August - September 2023",
-    desc: "Completed  intensive Training program in java programming at CETPA infotech . The course was designed to provide a comprenshive understanding of Java ",
-    skills: [
-      "java",
-      "oops",
-      "SQL",
-      "MONGODB",
-      
-    ],
-    doc: "https://github.com/vanshchauhan21/certficates/blob/main/IMG_20240424_224436~2.jpg?raw=true",
-  },
-  {
-    id: 4,
-    img: "https://aktu.ac.in/images/logo.png",
-    role: "Frontend Developer",
-    company: "University Name - ()" ,
-    date: "may 2022 -  2022",
-    desc: "Mini Project or InterNship Assesment completed as a part of our university curriculum , involved the development of HOSPITAL MANAGEMENT SYSTEM designed to digitize and streamline the administartive and patient care processes of healthacre facilities in our city , The system aims to provide an efficient , user-friendly platform and enchance the quality of healthcare services",
-    skills: [
-       "HTML5",
-      "CSS",
-      "JavaScript",
-      "Bootstrap",
-      "Figma",
-      "Canva",
-      "Lightroom"
-    ],
-    doc: "https://aktu.ac.in/images/logo.png",
-  },
-  
-  {
-    id: 5,
-    img: "data:image/jpeg;base64,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",
-    role: "Open Source Contributor ",
-    company: "Social Media",
-    date: "April 24 ",
-    desc: "Contributed to different open-source projects and learn from industry experts",
-  },
-];
+    title: "Pika-UI",
 
-export const education = [
-  {
-    id: 0,
-    img: "https://aktu.ac.in/images/logo.png",
-    school: "DR.A.P.J Abdul Kalam Technical University (KSVCEM,Bijnor) ",
-    date: "Oct 2021 - Sep 2025",
-    grade: "7.00 CGPA",
-    desc: "Currently pursuing  Bachelor of Technology (B.Tech) in Computer Science and Engineering, currently in the Final Year, with a commendable CGPA of 7.00 at AKTU (Dr. A.P.J. Abdul Kalam Technical University), affiliated with KSVCEM (Kunwar SAtiya Vira College of Enginnering and mnagement ), positioning myself at the forefront of technological education and innovation.",
-    degree: "Bachelor of Technology - BTech, Computer Science and Engineering",
-  },
- 
-  {
-    id: 2,
-    img: "https://ddpsbijnor.edu.in/images/ddps_logo.png",
-    school: "DAYAWATI DHARMA VIRA PUBLIC SCHOOL , BIJNOR (DDPS)",
-    date: "Apr 2017 - 2019",
-    grade: "76",
-    desc: "Successfully complete 10th grade with a commendable 76% grade from CBSE board at DDPS (Dayawati Dharma Vira Public School). Demonstrated strong academic performance and dedication to excellence in studies. Developed foundational skills in various subjects, setting a solid platform for future academic and professional pursuits.",
-    degree: "CBSCE(X)", 
-  },
-];
-
-export const projects = [
-  {
+    description:
+      "Browse and discover our beautifully designed UI components. Get inspired and use them in your projects.",
+    image:
+    "https://github.com/vanshchauhan21/vanshchauhan21/blob/main/Pika%20UI.png?raw=true",
+    tags: [
+      "Build Components",
+      "Documentation",
+     
+    ],
+    category: "web app",
+    // github: "https://github.com/vanshchauhan21/UI_Library-main",
+    webapp: "https://pika-ui.vercel.app/",
+  }, {
     id: 11,
     title: "ATSResume Maker",
-    date: "Jan 2024 - Dec 2023",
+  
     description:
       "A Rule Builder application “Decision Hub” that empowers Business Analysts to create, save, and visualize decision strategies. Provide a no-code rule writing experience and visual representation to test these rules in real-time and observe the calculations at each step.",
     image:
     "https://github.com/vanshchauhan21/ATSResume/blob/main/public/assets/Screenshot%20(7).png?raw=true",
     tags: [
-      "NextJS",
-      "ReactJS",
+      "Buid Resume",
+      "ATS Friendly",
       
-      "CSSs",
-      "Material UI",
      
     ],
     category: "web app",
-    github: "https://github.com/vanshchauhan21/ATSResume.git",
+    // github: "https://github.com/vanshchauhan21/ATSResume.git",
     webapp: "https://ats-resume-one.vercel.app/",
     
   },
   {
     id: 9,
     title: "Code Editor",
-    date: "oct 2023 - April 2024",
+  
     description:
       "Vortex Code: A Powerful Online Code Editor Built with React.js* Create a playground area where one can create multiple code snippets and run it using an online compiler and execution system.",
     image:
@@ -346,103 +403,20 @@ export const projects = [
      
     ],
     category: "web app",
-    github: "https://github.com/vanshchauhan21/Vortex-IDE",
+    // github: "https://github.com/vanshchauhan21/Vortex-IDE",
     webapp: "https://vortex-ide.vercel.app/",
   },
-  {
-    id: 0,
-    title: "github-profile-readme-generator",
-    date: "Dec 2023 - Feb 2024",
-    description:
-      "You can share information about yourself with the community on GitHub by creating a profile README. GitHub shows your profile README at the top of your profile page. You decide what information to include in your profile README, so you have full control over how you present yourself on GitHub.",
-    image:
-      "https://github.com/vanshchauhan21/github-profile-readme-generator/raw/main/Screenshot%20(14).png?raw=true",
-    tags: ["NextJS","ReactJS", "CSS", "Material UI"],
-    category: "web app",
-    github: "https://github.com/vanshchauhan21/github-profile-readme-generator.git",
-    webapp: "https://github-profile-readme-generator-iota.vercel.app/",
-    
-  },
-  {
-    id: 1,
-    title: "Pika-UI",
-    date: "sep 2024 - Dec 2024",
-    description:
-      "Browse and discover our beautifully designed UI components. Get inspired and use them in your projects.",
-    image:
-    "https://github.com/vanshchauhan21/vanshchauhan21/blob/main/Pika%20UI.png?raw=true",
-    tags: [
-      "React Js",
-      "Next js",
-     
-    ],
-    category: "web app",
-    github: "https://github.com/vanshchauhan21/UI_Library-main",
-    webapp: "https://pika-ui.vercel.app/",
-  },
-  {
-    id: 2,
-    title: "Shoes Store",
-    date: "Jan 2024 - feb 2024",
-    description:
-      "An online shoe store is a digital marketplace or a website where individuals can browse, select, and purchase various types of shoes from the comfort of their own home. These stores offer a wide range of footwear, including sneakers, formal shoes, sandals, and more, from multiple brands and designers.",
-    image:
-      "https://github.com/vanshchauhan21/Shoes-Store-/blob/main/Screenshot%20(22).png?raw=true",
-    tags: ["javascript"," html5","css"],
-    category: "web app",
-    github: "hhttps://github.com/vanshchauhan21/Shoes-Store-.git",
-    webapp: "https://shoes-store-virid-six.vercel.app/",
-    
-  },
-  {
-    id: 3,
-    title: "youtube-bookmarker-extension",
-    date: "march 2024 - April 2024",
-    description:
-      "The YouTube Bookmarker Extension is your ultimate tool for organizing and bookmarking your favorite moments on YouTube videos with ease. Seamlessly integrated into your browser, this intuitive extension empowers you to capture, save, and revisit those unforgettable segments of your favorite videos, allowing you to effortlessly navigate through the vast sea of content on YouTube.",
-    image:
-      "https://github.com/vanshchauhan21/youtube-bookmarker-extension/blob/main/Screenshot%20(52).png?raw=true",
-    tags: ["javascript"," html5","css"],
-    category: "chrome extension",
-    github: "https://github.com/vanshchauhan21/youtube-bookmarker-extension.git",
-    webapp: "https://youtube-bookmarker-extension.vercel.app/",
-  },
-  {
-    id: 10,
-    title: "Color-Picker-extension",
-    date: "march 2024 - April 2024",
-    description:
-      "The ultimate color picker extension that brings creativity and efficiency to your web browsing experience. empowers you to effortlessly identify, capture, and utilize colors from any webpage with precision and ease. ",
-    image:
-      "https://github.com/vanshchauhan21/Color-Picker-extension/blob/main/color.png?raw=true",
-    tags: ["javascript"," html5","css"],
-    category: "chrome extension",
-    github: "https://github.com/vanshchauhan21/Color-Picker-extension.git",
-    webapp: "https://www.rvit.ac.in/index.html",
-  },
-  {
-    id: 4,
-    title: "Ecommerce website",
-    date: "sep 2023",
-    description:
-      "An e-commerce website is one that allow npeople to buy and sell physical goods, and digital products over the internet rather than at a brick-and-mortar location.",
-    image:
-      "https://github.com/vanshchauhan21/Ecommerce-website/blob/main/Screenshot%20(20).png?raw=true",
-    tags: ["javascript"," html5","css"],
-    category: "web app",
-    github: "https://github.com/vanshchauhan21/Ecommerce-website.git",
-    webapp: "https://ecommerce-website-six-teal.vercel.app/",
-  },
+
   
   {
     id: 8,
     title: "Portfolio",
     date: "Jan 2024",
     description:
-      "an online portfolio (may also be called a digital portfolio or e-portfolio) is an online representation of work you have created, as well as your skills and experiences. It could be a website, blog, or even a video channel.",
+      "n online portfolio (may also be called a digital portfolio or e-portfolio) is an online representation of work you have created, as well as your skills and experiences. It could be a website, blog, or even a video channel.",
     image:
       "https://github.com/vanshchauhan21/portfolio-Template/blob/main/Screenshot%20(1).png?raw=true",
-    tags: ["JAVASCRIPT", "HTML5", "CSS",],
+    tags: ["JAVASCRIPT", "HTML5", "SCSS",],
     category: "portfolio",
     github: "https://github.com/vanshchauhan21/portfolio-Template.git",
     webapp: "https://portfolio-template-beta-snowy.vercel.app/",
