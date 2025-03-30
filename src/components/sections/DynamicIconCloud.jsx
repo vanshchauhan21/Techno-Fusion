@@ -128,7 +128,7 @@ const DynamicIconCloud = () => {
       options={{
         keepStatic: true,       // Keeps the cloud rotating even when not hovered
         initialSpeed: 0.2,       // Adjust the speed of rotation (positive or negative for direction)
-        maxSpeed: 0.5,           // Max speed for rotation
+        maxSpeed: 0.3,           // Max speed for rotation
         zoom: 1, 
         reverse: true,
         depth: 1,

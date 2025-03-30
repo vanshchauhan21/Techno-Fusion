@@ -174,19 +174,7 @@ const ResumeButton = styled.a`
     color: white;
 `;
 
-const Img = styled.img`
-  border-radius: 50%;
-  width: 100%;
-  height: 100%;
-  max-width: 400px;
-  max-height: 400px;
-  border: 2px solid ${({ theme }) => theme.primary};
 
-  @media (max-width: 640px) {
-    max-width: 280px;
-    max-height: 280px;
-  }
-`;
 
 const HeroBg = styled.div`
   position: absolute;

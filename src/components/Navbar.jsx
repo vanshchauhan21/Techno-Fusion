@@ -156,10 +156,13 @@ const Navbar = () => {
 
         <NavItems>
           <NavLink href="#About">About</NavLink>
-          <NavLink href="">Coding</NavLink>
+          <NavLink href="#Projects">Coding</NavLink>
           <NavLink href="#Experience">Jobs</NavLink>
           <NavLink href="#Projects">RoadMap</NavLink>
-          <NavLink href="#Education">UI Library</NavLink>
+          <NavLink href="https://pika-ui.vercel.app/" target="_blank" rel="noopener noreferrer">
+  UI Library
+</NavLink>
+
         </NavItems>
 
         {isOpen && (
@@ -195,7 +198,10 @@ const Navbar = () => {
 
         <ButtonContainer>
           <GithubButton href={Bio.github} target="_Blank">
-            Discord
+            AKTU NOTES
+          </GithubButton>
+          <GithubButton href={Bio.github} target="_Blank">
+            Question Papers
           </GithubButton>
        
           
