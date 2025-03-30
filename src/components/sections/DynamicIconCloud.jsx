@@ -144,7 +144,7 @@ const DynamicIconCloud = () => {
         minSpeed: 0.02,                // Adjust zoom level (1 is default)
       }}
     >
-      {icons}
+      {icons}  
     </Cloud>
   )
 }
