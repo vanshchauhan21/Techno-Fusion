@@ -370,7 +370,7 @@ export const projects = [
     ],
     category: "web app",
     // github: "https://github.com/vanshchauhan21/UI_Library-main",
-    webapp: "https://pika-ui.vercel.app/",
+    webapp: "https://pika-ui-builder.vercel.app/",
   }, {
     id: 11,
     title: "ATSResume Maker",
