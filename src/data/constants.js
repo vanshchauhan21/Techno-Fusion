@@ -319,33 +319,81 @@ export const skills = [
 //     degree: "CBSCE(X)", 
 //   },
 // ];
-
 export const projects = [
+ 
   {
+    id: 18,
+    title: "AI Career Coach",
+   
+    description:
+      "AI Career Coach project addresses several key challenges faced by individuals seeking to advance their careers:",
+    image:
+    "https://github.com/vanshchauhan21/Certificate/blob/main/Screenshot%20(29).png?raw=true",
+    tags: [
+      "Industry Insights",
+      "AI resume ",
+      
+      "Cover letter Generator",
+      " Interview prep",
+     
+    ],
+    category: "AI",
+    webapp: "https://ai-career-coach-eight-liart.vercel.app/",
+    
+  },
+  {
+    id: 0,
+    title: "github-profile-readme-generator",
+   
+    description:
+      "You can share information about yourself with the community on GitHub by creating a profile README. GitHub shows your profile README at the top of your profile page. You decide what information to include in your profile README, so you have full control over how you present yourself on GitHub.",
+    image:
+      "https://github.com/vanshchauhan21/github-profile-readme-generator/raw/main/Screenshot%20(14).png?raw=true",
+    tags: ["Portfolio","Readme"],
+    category: "web app",
+    // github: "https://github.com/vanshchauhan21/github-profile-readme-generator.git",
+    webapp: "https://github-profile-readme-generator-iota.vercel.app/",
+    
+  },
+  {
+    id: 1,
+    title: "Pika-UI",
+
+    description:
+      "Browse and discover our beautifully designed UI components. Get inspired and use them in your projects.",
+    image:
+    "https://github.com/vanshchauhan21/vanshchauhan21/blob/main/Pika%20UI.png?raw=true",
+    tags: [
+      "Build Components",
+      "Documentation",
+     
+    ],
+    category: "web app",
+    // github: "https://github.com/vanshchauhan21/UI_Library-main",
+    webapp: "https://pika-ui.vercel.app/",
+  }, {
     id: 11,
     title: "ATSResume Maker",
-    date: "Jan 2024 - Dec 2023",
+  
     description:
       "A Rule Builder application “Decision Hub” that empowers Business Analysts to create, save, and visualize decision strategies. Provide a no-code rule writing experience and visual representation to test these rules in real-time and observe the calculations at each step.",
     image:
     "https://github.com/vanshchauhan21/ATSResume/blob/main/public/assets/Screenshot%20(7).png?raw=true",
     tags: [
-      "NextJS",
-      "ReactJS",
+      "Buid Resume",
+      "ATS Friendly",
       
-      "CSSs",
-      "Material UI",
      
     ],
     category: "web app",
-    github: "https://github.com/vanshchauhan21/ATSResume.git",
+    // github: "https://github.com/vanshchauhan21/ATSResume.git",
     webapp: "https://ats-resume-one.vercel.app/",
     
   },
   {
     id: 9,
     title: "Code Editor",
-    date: "oct 2023 - April 2024",
+  
     description:
       "Vortex Code: A Powerful Online Code Editor Built with React.js* Create a playground area where one can create multiple code snippets and run it using an online compiler and execution system.",
     image:
@@ -355,94 +403,10 @@ export const projects = [
      
     ],
     category: "web app",
-    github: "https://github.com/vanshchauhan21/Vortex-IDE",
+    // github: "https://github.com/vanshchauhan21/Vortex-IDE",
     webapp: "https://vortex-ide.vercel.app/",
   },
-  {
-    id: 0,
-    title: "github-profile-readme-generator",
-    date: "Dec 2023 - Feb 2024",
-    description:
-      "You can share information about yourself with the community on GitHub by creating a profile README. GitHub shows your profile README at the top of your profile page. You decide what information to include in your profile README, so you have full control over how you present yourself on GitHub.",
-    image:
-      "https://github.com/vanshchauhan21/github-profile-readme-generator/raw/main/Screenshot%20(14).png?raw=true",
-    tags: ["NextJS","ReactJS", "CSS", "Material UI"],
-    category: "web app",
-    github: "https://github.com/vanshchauhan21/github-profile-readme-generator.git",
-    webapp: "https://github-profile-readme-generator-iota.vercel.app/",
-    
-  },
-  {
-    id: 1,
-    title: "Pika-UI",
-    date: "sep 2024 - Dec 2024",
-    description:
-      "Browse and discover our beautifully designed UI components. Get inspired and use them in your projects.",
-    image:
-    "https://github.com/vanshchauhan21/vanshchauhan21/blob/main/Pika%20UI.png?raw=true",
-    tags: [
-      "React Js",
-      "Next js",
-     
-    ],
-    category: "web app",
-    github: "https://github.com/vanshchauhan21/UI_Library-main",
-    webapp: "https://pika-ui.vercel.app/",
-  },
-  {
-    id: 2,
-    title: "Shoes Store",
-    date: "Jan 2024 - feb 2024",
-    description:
-      "An online shoe store is a digital marketplace or a website where individuals can browse, select, and purchase various types of shoes from the comfort of their own home. These stores offer a wide range of footwear, including sneakers, formal shoes, sandals, and more, from multiple brands and designers.",
-    image:
-      "https://github.com/vanshchauhan21/Shoes-Store-/blob/main/Screenshot%20(22).png?raw=true",
-    tags: ["javascript"," html5","css"],
-    category: "web app",
-    github: "hhttps://github.com/vanshchauhan21/Shoes-Store-.git",
-    webapp: "https://shoes-store-virid-six.vercel.app",
-    
-  },
-  {
-    id: 3,
-    title: "youtube-bookmarker-extension",
-    date: "march 2024 - April 2024",
-    description:
-      "The YouTube Bookmarker Extension is your ultimate tool for organizing and bookmarking your favorite moments on YouTube videos with ease. Seamlessly integrated into your browser, this intuitive extension empowers you to capture, save, and revisit those unforgettable segments of your favorite videos, allowing you to effortlessly navigate through the vast sea of content on YouTube.",
-    image:
-      "https://github.com/vanshchauhan21/youtube-bookmarker-extension/blob/main/Screenshot%20(52).png?raw=true",
-    tags: ["javascript"," html5","css"],
-    category: "chrome extension",
-    github: "https://github.com/vanshchauhan21/youtube-bookmarker-extension.git",
-    webapp: "https://youtube-bookmarker-extension.vercel.app/",
-  },
-  {
-    id: 10,
-    title: "Color-Picker-extension",
-    date: "march 2024 - April 2024",
-    description:
-      "The ultimate color picker extension  creativity and efficiency on your web browsing experience. empowers you to effortlessly identify, capture, and utilize colors from any webpage with precision and ease. ",
-    image:
-      "https://github.com/vanshchauhan21/Color-Picker-extension/blob/main/color.png?raw=true",
-    tags: ["javascript"," html5","css"],
-    category: "chrome extension",
-    github: "https://github.com/vanshchauhan21/Color-Picker-extension.git",
-    webapp: "https://www.rvit.ac.in/index.html",
-  },
-  {
-    id: 4,
-    title: "Ecommerce-website",
-    date: "sep 2023",
-    description:
-      "An e-commerce website is one that allows people to buy and sell physical goods, services, and digital products over the internet rather than at a brick-and-mortar location.",
-    image:
-      "https://github.com/vanshchauhan21/Ecommerce-website/blob/main/Screenshot%20(20).png?raw=true",
-    tags: ["javascript"," html5","css"],
-    category: "web app",
-    github: "https://github.com/vanshchauhan21/Ecommerce-website.git",
-    webapp: "https://ecommerce-website-six-teal.vercel.app/",
-  },
- 
+
   
   {
     id: 8,

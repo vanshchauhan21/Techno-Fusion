@@ -156,9 +156,9 @@ const Navbar = () => {
 
         <NavItems>
           <NavLink href="#About">About</NavLink>
-          <NavLink href="#Projects">Coding</NavLink>
-          <NavLink href="#Experience">Jobs</NavLink>
-          <NavLink href="#Projects">RoadMap</NavLink>
+          <NavLink href="#Projects">Tools</NavLink>
+          <NavLink href="#Experience">CodEditor</NavLink>
+          {/* <NavLink href="#Projects">Portfilo</NavLink> */}
           <NavLink href="https://pika-ui.vercel.app/" target="_blank" rel="noopener noreferrer">
   UI Library
 </NavLink>

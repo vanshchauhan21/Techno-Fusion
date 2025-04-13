@@ -125,8 +125,8 @@ const Projects = ({ openModal, setOpenModal }) => {
           </ToggleButton>
           <Divider />
           <ToggleButton
-            active={toggle === "chrome extension"}
-            onClick={() => setToggle("chrome extension")}
+            active={toggle === "AI"}
+            onClick={() => setToggle("AI")}
           >
             AI TOOLS
           </ToggleButton>
