@@ -291,15 +291,7 @@ export const skills = [
 // ];
 
 // export const education = [
-//   {
-//     id: 0,
-//     img: "https://aktu.ac.in/images/logo.png",
-//     school: "DR.A.P.J Abdul Kalam Technical University (KSVCEM,Bijnor) ",
-//     date: "Oct 2021 - Sep 2025",
-//     grade: "7.00 CGPA",
-//     desc: "Currently pursuing a Bachelor of Technology (B.Tech) in Computer Science and Engineering (CSE), currently in the Final Year, with a commendable CGPA of 7.00 at AKTU (Dr. A.P.J. Abdul Kalam Technical University), affiliated with KSVCEM (Kunwar SAtiya Vira College of Enginnering and mnagement ), positioning myself at the forefront of technological education and innovation.",
-//     degree: "Bachelor of Technology - BTech, Computer Science and Engineering",
-//   },
+// 
 //   {
 //     id: 1,
 //     img: "https://ddpsbijnor.edu.in/images/ddps_logo.png",
@@ -331,7 +323,7 @@ export const projects = [
     "https://github.com/vanshchauhan21/Certificate/blob/main/Screenshot%20(29).png?raw=true",
     tags: [
       "Industry Insights",
-      "AI resume ",
+      "AI resume Creater ",
       
       "Cover letter Generator",
       " Interview prep",
