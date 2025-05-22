@@ -121,7 +121,7 @@ const Projects = ({ openModal, setOpenModal }) => {
             active={toggle === "web app"}
             onClick={() => setToggle("web app")}
           >
-          Placements
+          UI Library 
           </ToggleButton>
           <Divider />
           <ToggleButton
@@ -132,10 +132,10 @@ const Projects = ({ openModal, setOpenModal }) => {
           </ToggleButton>
           <Divider />
           <ToggleButton
-            active={toggle === "portfolio"}
-            onClick={() => setToggle("portfolio")}
+            active={toggle === "web app"}
+            onClick={() => setToggle("web app")}
           >
-            Code Editor 
+            Web app 
           </ToggleButton>
         </ToggleButtonGroup>
         <CardContainer>
