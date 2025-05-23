@@ -197,11 +197,9 @@ const Navbar = () => {
         )}
 
         <ButtonContainer>
-          <GithubButton href={Bio.github} target="_Blank">
-            AKTU NOTES
-          </GithubButton>
-          <GithubButton href={Bio.github} target="_Blank">
-            Question Papers
+         
+          <GithubButton href={Bio.githubb} target="_Blank">
+            Notes & PYQs
           </GithubButton>
        
           

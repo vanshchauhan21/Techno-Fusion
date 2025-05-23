@@ -74,6 +74,7 @@ const Title = styled.div`
   font-weight: 700;
   font-size: 50px;
   color: ${({ theme }) => theme.text_primary};
+  
   line-height: 68px;
 
   @media (max-width: 960px) {
@@ -92,8 +93,8 @@ const TextLoop = styled.div`
   font-size: 32px;
   display: flex;
   gap: 12px;
-  color: ${({ theme }) => theme.text_primary};
-  line-height: 68px;
+ color: ${({ theme }) => theme.primary};
+  line-height: 78px;
 
   @media (max-width: 960px) {
     text-align: center;
@@ -233,8 +234,8 @@ const Hero = () => {
                 <SubTitle>{Bio.description}</SubTitle>
             
 
-              <ResumeButton href={Bio.resume} target="_blank">
-                Get More Details
+              <ResumeButton href={Bio.resumee} target="_blank">
+                Want to contribute?
               </ResumeButton>
             </HeroLeftContainer>
             <HeroRightContainer>
