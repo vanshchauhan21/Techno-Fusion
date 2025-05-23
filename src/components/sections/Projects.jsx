@@ -132,10 +132,10 @@ const Projects = ({ openModal, setOpenModal }) => {
           </ToggleButton>
           <Divider />
           <ToggleButton
-            active={toggle === "portfolio"}
-            onClick={() => setToggle("portfolio")}
+            active={toggle === "web apppp"}
+            onClick={() => setToggle("web apppp")}
           >
-          Portfolio
+            Github
           </ToggleButton>
         </ToggleButtonGroup>
         <CardContainer>

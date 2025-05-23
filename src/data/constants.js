@@ -7,7 +7,9 @@ export const Bio = {
 "Technofusion is a software development company that provides custom software products and ready-made solutions for businesses" ,
  github: "https://github.com/vanshchauhan21",
   githubb:"https://notesgallery.com/",
+
   resumee:"https://github.com/vanshchauhan21/Techno-Fusion",
+
   certi:"https://docs.google.com/document/d/1aqzcUIm-Sg3_DFZ5S1-FLwPJoh6axSrdDNt7PABAZWY/edit?usp=sharing",
   linkedin: "https://www.linkedin.com/in/vansh-chauhan-6aa684281?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=android_app/",
   insta: "https://www.instagram.com/_vansh_rajput123/?igsh=MWxiMWEybzB3YTlzZw%3D%3D",
@@ -219,7 +221,7 @@ export const projects = [
     image:
       "https://github.com/vanshchauhan21/github-profile-readme-generator/raw/main/Screenshot%20(14).png?raw=true",
     tags: ["Portfolio","Readme"],
-    category: "web app",
+    category: "web apppp",
     // github: "https://github.com/vanshchauhan21/github-profile-readme-generator.git",
     webapp: "https://github-profile-readme-generator-iota.vercel.app/",
     

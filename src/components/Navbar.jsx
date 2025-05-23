@@ -174,33 +174,43 @@ const Navbar = () => {
               {/* Skills */}
             </NavLink>
             <NavLink onClick={() => setIsOpen(!isOpen)} href="#Experience">
-              Experience
+              Tools
             </NavLink>
             <NavLink onClick={() => setIsOpen(!isOpen)} href="#Projects">
-              Projects
+              CodeEditor
             </NavLink>
             <NavLink onClick={() => setIsOpen(!isOpen)} href="#Education">
-              Education
+              UI Library 
             </NavLink>
            
             <GithubButton
-              href={Bio.github}
+              href={Bio.githubb}
               target="_Blank"
               style={{
                 background: theme.primary,
                 color: theme.text_primary,
               }}
             >
-              Discord
+              Notes & PYQs
             </GithubButton>
           </MobileMenu>
         )}
 
         <ButtonContainer>
+
          
-          <GithubButton href={Bio.githubb} target="_Blank">
-            Notes & PYQs
+         
+
+          <GithubButton href={Bio.githubb} target="_Blank"
+            style={{
+                background: theme.primary,
+                color: theme.text_primary,
+              }}
+            >
+          Notes & PYQs
+
           </GithubButton>
+          
        
           
         </ButtonContainer>
