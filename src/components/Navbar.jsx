@@ -200,7 +200,15 @@ const Navbar = () => {
 
          
          
+  <GithubButton href={Bio.mini} target="_Blank"
+            style={{
+                background: theme.primary,
+                color: theme.text_primary,
+              }}
+            >
+       Mini Projects
 
+          </GithubButton>
           <GithubButton href={Bio.githubb} target="_Blank"
             style={{
                 background: theme.primary,
@@ -212,7 +220,7 @@ const Navbar = () => {
           </GithubButton>
           
        
-          
+         
         </ButtonContainer>
         
       </NavbarContainer>
