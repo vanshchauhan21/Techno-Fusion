@@ -7,7 +7,7 @@ export const Bio = {
 "Technofusion is a software development company that provides custom software products and ready-made solutions for businesses" ,
  github: "https://github.com/vanshchauhan21",
   githubb:"https://notesgallery.com/",
-
+mini:" https://react-projects-tan-two.vercel.app/",
   resumee:"https://github.com/vanshchauhan21/Techno-Fusion",
 
   certi:"https://docs.google.com/document/d/1aqzcUIm-Sg3_DFZ5S1-FLwPJoh6axSrdDNt7PABAZWY/edit?usp=sharing",
