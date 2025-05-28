@@ -299,11 +299,11 @@ export const projects = [
     description:
       "an online portfolio (may also be called a digital portfolio or e-portfolio) is an online representation of work you have created, as well as your skills and experiences. It could be a website, blog, or even a video channel.",
     image:
-      "https://github.com/vanshchauhan21/project/blob/main/Screenshot%20(84).png?raw=true",
+      "https://github.com/vanshchauhan21/project/blob/main/Screenshot%20(87).png?raw=true",
     tags: ["React.js", "Tailwind", "SCSS",],
     category: "portfolio",
-    github: "https://github.com/ginni-1/darshika-portfolio",
-    webapp: "https://darshika-portfolio.vercel.app/",
+    github: "https://github.com/vanshchauhan21/vansh-react-portfolio",
+    webapp: "https://vanshchauhan-portfolio.vercel.app//",
   },
   {
     id: 15,
